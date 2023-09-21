@@ -1,0 +1,80 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; 
+    padding: 10px 20px; 
+    color: #fff; 
+}
+
+.logo img {
+    max-width: 100px; 
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.discord-button a {
+    background-color: #7289DA; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.discord-button a:hover {
+    background-color: #5865F2; 
+}
+
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    margin: 20px;
+}
+
+.item img {
+    max-width: 200px;
+}
+
+.item a {
+    display: block;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+.item a:hover {
+    background-color: #555; 
+}
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
